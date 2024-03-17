@@ -5,7 +5,7 @@ const Sms = require('./modules/sms.js');
 
 title('Hosgeldiniz');
 
-let telefon = rl.question('Telefon Numarasi +90' .red);
+let telefon = rl.question('Telefon Numarasi +90:' .red);
 if (telefon.length != 10) {
     console.log('10 hanelı'.red);
     process.exit(1);
